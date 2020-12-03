@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading,
+.sub {
+  text-align: center;
+}
+
+.heading {
+  margin-top: 1rem;
+}
+
+.temp {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container {
+  border: 1px solid grey;
+  max-width: 300px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  border-radius: 3px;
+}
+
+#choice,
+#submitBtn,
+#newGame {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+#submitBtn,
+#newGame {
+  margin-top: 1rem;
+}
