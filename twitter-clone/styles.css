@@ -514,3 +514,27 @@ body {
     gap: 1rem;
   }
 }
+
+@media (max-width: 380px) {
+  .first-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .main-second {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .btns-div-sm {
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 2rem;
+  }
+
+  .sign-sm,
+  .log-sm {
+    min-width: 150px;
+  }
+}

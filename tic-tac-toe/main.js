@@ -11,7 +11,6 @@ let winnerCombos = [
 ];
 
 // state
-// let gameBoard = ["X", "O", "X", "O", "X", "O", "X", "O", "X"];
 let gameBoard = ["", "", "", "", "", "", "", "", ""];
 let playCount = 0;
 let gameWon = false;
