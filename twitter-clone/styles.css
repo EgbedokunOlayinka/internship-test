@@ -379,7 +379,7 @@ body {
   }
 
   .footer-links {
-    gap: 0.5rem;
+    gap: 1rem;
   }
 }
 
@@ -470,6 +470,7 @@ body {
     margin-right: auto;
     justify-content: space-between;
     margin-bottom: 1.5rem;
+    margin-top: 1rem;
   }
 
   .sign-sm,
@@ -509,13 +510,14 @@ body {
     padding-right: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    margin-bottom: 2rem;
     height: 15vh;
     max-height: 20vh;
     gap: 1rem;
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 400px) {
   .first-content {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -536,5 +538,30 @@ body {
   .sign-sm,
   .log-sm {
     min-width: 150px;
+  }
+
+  .footer-links {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .sign-sm,
+  .log-sm {
+    min-width: 135px;
+  }
+}
+
+@media (max-width: 330px) {
+  .btns-div-sm {
+    display: block;
+    margin-top: 3.5rem;
+  }
+
+  .sign-sm,
+  .log-sm {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
   }
 }
